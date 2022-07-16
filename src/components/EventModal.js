@@ -54,6 +54,7 @@ export default function EventModal() {
           <span className="material-icons-outlined text-gray-400">
             drag_handle
           </span>
+          <p> Schedules</p>
           <div>
             {selectedEvent && (
               <span
@@ -69,6 +70,7 @@ export default function EventModal() {
                 delete
               </span>
             )}
+            
             <button onClick={() => setShowEventModal(false)}>
               <span className="material-icons-outlined text-gray-400">
                 close
